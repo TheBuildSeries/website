@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheBuildSeries</title>
+  <meta name="description" content="A series of side projects. We build, ship, and measure their impact.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <div>
+        <span class="prompt">visitor@thebuildseries</span>:<span class="command">~$</span> whoami
+      </div>
+      <h1 class="title">TheBuildSeries</h1>
+    </header>
+
+    <section class="section" aria-label="About">
+      <div class="section-prompt">
+        <span class="prompt">visitor@thebuildseries</span>:<span class="command">~$</span> cat about.txt
+      </div>
+      <div class="output">
+        <p>A series of side projects. We build, ship, and measure their impact.</p>
+        <p>Each project is an experiment — track what we launch, how it performs, and what we learn along the way.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Projects">
+      <div class="section-prompt">
+        <span class="prompt">visitor@thebuildseries</span>:<span class="command">~$</span> ls projects/<span class="cursor"></span>
+      </div>
+      <div id="projects-gallery" class="projects-grid">
+        <p class="loading">Loading projects...</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="prompt">visitor@thebuildseries</span>:<span class="command">~$</span> echo "Built with curiosity."
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

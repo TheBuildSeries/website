@@ -1,0 +1,42 @@
+[
+  {
+    "name": "build-tracker",
+    "description": "CLI dashboard that tracks build times across CI providers",
+    "url": "https://github.com/TheBuildSeries/build-tracker",
+    "metrics": {
+      "views": "12.5K",
+      "traffic": "8.2K visits/mo",
+      "impact": "Featured on HN"
+    }
+  },
+  {
+    "name": "deploy-ping",
+    "description": "Lightweight uptime monitor with Slack alerts",
+    "url": "https://github.com/TheBuildSeries/deploy-ping",
+    "metrics": {
+      "views": "6.1K",
+      "traffic": "3.4K visits/mo",
+      "impact": "200+ GitHub stars"
+    }
+  },
+  {
+    "name": "metric-garden",
+    "description": "Visual dashboard for side-project analytics",
+    "url": "https://github.com/TheBuildSeries/metric-garden",
+    "metrics": {
+      "views": "9.8K",
+      "traffic": "5.1K visits/mo",
+      "impact": "Top 10 on Product Hunt"
+    }
+  },
+  {
+    "name": "readme-gen",
+    "description": "Auto-generate README files from project metadata",
+    "url": "https://github.com/TheBuildSeries/readme-gen",
+    "metrics": {
+      "views": "4.3K",
+      "traffic": "2.0K visits/mo",
+      "impact": "Used by 50+ repos"
+    }
+  }
+]
